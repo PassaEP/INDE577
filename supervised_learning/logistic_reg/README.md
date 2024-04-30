@@ -12,9 +12,9 @@ $$
 \sigma(z) = \frac{1}{1 + e^{-z}}
 $$
 
-where $$ z = w_0 + w_1x_1 + w_2x_2 + \ldots + w_nx_n $$ is the linear combination of input features $$ x_1, x_2, \ldots, x_n $$ weighted by parameters $$ w_1, w_2, \ldots, w_n $$, and $$ w_0 $$ is the bias term.
+where $z = w_0 + w_1x_1 + w_2x_2 + \ldots + w_nx_n$ is the linear combination of input features $x_1, x_2, \ldots, x_n$ weighted by parameters $w_1, w_2, \ldots, w_n$, and $w_0$ is the bias term.
 
-The sigmoid function maps the linear combination $$ z $$ to a value between 0 and 1, representing the probability of the positive class (class 1).
+The sigmoid function maps the linear combination $z$ to a value between 0 and 1, representing the probability of the positive class (class 1).
 
 ### Decision Boundary
 
@@ -36,7 +36,7 @@ $$
 J(w) = -\frac{1}{m} \sum_{i=1}^{m} \left( y^{(i)} \log(\hat{y}^{(i)}) + (1 - y^{(i)}) \log(1 - \hat{y}^{(i)}) \right)
 $$
 
-where $$ m $$ is the number of training examples, $$ y^{(i)} $$ is the true label of the $$ i $$-th example (0 or 1), and $$ \hat{y}^{(i)} $$ is the predicted probability of the positive class for the $$ i $$-th example.
+where $m$ is the number of training examples, $y^{(i)}$ is the true label of the $ i $$-th example (0 or 1), and $\hat{y}^{(i)}$ is the predicted probability of the positive class for the $i$-th example.
 
 ### Optimization
 
@@ -50,7 +50,7 @@ One advantage of logistic regression is that it provides probabilistic outputs, 
 
 ### Coefficients
 
-The coefficients $$ w_1, w_2, \ldots, w_n $$ represent the influence of each input feature on the log-odds of the positive class. Positive coefficients indicate a positive association with the positive class, while negative coefficients indicate a negative association.
+The coefficients $w_1, w_2, \ldots, w_n$ represent the influence of each input feature on the log-odds of the positive class. Positive coefficients indicate a positive association with the positive class, while negative coefficients indicate a negative association.
 
 ## Advantages
 
