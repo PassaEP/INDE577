@@ -11,4 +11,4 @@ Here's a summary of how it works:
 4. Repeat: Iterate steps 2 and 3 until convergence criteria are met, such as reaching a certain number of iterations or when the improvement in the cost function is below a predefined threshold.
 Gradient descent comes in different variants, such as batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, each with its own characteristics and trade-offs in terms of convergence speed and computational efficiency.
 
-Here, we use gradient descent algorithm optimize simple single variable and multivariable functions. 
+Here, we use gradient descent algorithm optimize simple single variable and multivariable functions as an initial example of the working algorithm. However, in the logistic regression module, we'll also use it again. 
