@@ -12,24 +12,22 @@ One common approach in ensemble learning is the voting-based method, where predi
 
 ### Math Behind Ensemble Learning
 
-Let $$ M $$ be the number of models in the ensemble, and let $$ P_i(x) $$ denote the prediction of the $$ i $$-th model for input $$ x $$. The final prediction $$ P(x) $$ of the ensemble is computed as:
+Let $ M $ be the number of models in the ensemble, and let $ P_i(x) $ denote the prediction of the $ i $-th model for input $ x $. The final prediction $ P(x) $ of the ensemble is computed as:
 
 $$
 P(x) = \text{argmax}_{c} \sum_{i=1}^{M} w_i \cdot \mathbb{1}(P_i(x) = c)
 $$
 
-where $$ \mathbb{1} $$ is the indicator function, and $$ w_i $$ are optional weights assigned to each model.
+where $ \mathbb{1} $ is the indicator function, and $ w_i $ are optional weights assigned to each model.
 
 ## Ensemble Members
 
 In this example, we use three different machine learning models as ensemble members:
 
-1. **K-Nearest Neighbors (KNN)**: A non-parametric classification algorithm that assigns labels to new data points based on the majority class among its $$ k $$ nearest neighbors.
+1. **K-Nearest Neighbors (KNN)**: A non-parametric classification algorithm that assigns labels to new data points based on the majority class among its $ k $ nearest neighbors.
 
 2. **Multilayer Perceptron (MLP)**: A type of artificial neural network with multiple layers of nodes, capable of learning complex patterns in data.
 
 3. **Random Forest (RF)**: An ensemble learning method based on decision trees, where multiple decision trees are trained on random subsets of the data and their predictions are combined through voting.
 
-## Conclusion
-
-By combining the strengths of KNN, MLP, and RF as ensemble members, we aim to create a more robust and accurate predictive model. Each model brings its unique perspective and capabilities, and through ensemble learning, we harness their collective intelligence to achieve superior performance.
+Here we use ensemble learning to try to classify the types of beans based on about 17 metrics. 
