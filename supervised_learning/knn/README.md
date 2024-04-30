@@ -21,5 +21,6 @@ The k-NN algorithm operates on the principle of similarity. Given a new data poi
 - **Classification**: k-NN is commonly used in pattern recognition, image classification, and handwriting recognition tasks.
 - **Regression**: k-NN can be used for predicting continuous variables, such as house prices or stock prices.
 - **Anomaly Detection**: k-NN can identify outliers or anomalies in datasets by measuring the distance of data points to their nearest neighbors.
+- **Biology and Genomics**: Sequence-to-phenotype is a popular thing to study now in genomics and biology, comparing DNA, RNA, and AA sequences for similarity and mapping them to known functions can be done with KNNs. 
 
-In summary, k-NN is a versatile and intuitive algorithm suitable for various machine learning tasks. Its simplicity and interpretability make it a valuable tool for both beginners and experienced practitioners in the field.
+Here, we use KNN to classify the Dry Bean dataset into 7 different classes, using 17 features. 
