@@ -23,4 +23,4 @@ Mathematically, a decision tree can be represented as a binary tree where each i
 - **Exploratory Data Analysis**: Decision trees are useful for exploring relationships between features and the target variable in exploratory data analysis.
 - **Feature Importance**: Decision trees provide feature importance scores, allowing users to identify the most influential features in the data.
 
-Decision trees are a valuable tool in the machine learning toolkit, offering a balance between interpretability and predictive performance. However, careful parameter tuning and validation are necessary to mitigate their limitations and ensure reliable results.
+Here, we use decision trees to try classify the tumors from the Wisconsin dataset as malignant or benign and select 3 features to use the decision tree model on. 
