@@ -22,4 +22,4 @@ PCA is a dimensionality reduction technique used to reduce the dimensionality of
 - **Eigenvalue Decomposition**: PCA decomposes the covariance matrix into its eigenvectors and eigenvalues. Eigenvectors represent the directions of maximum variance, and eigenvalues represent the amount of variance explained along each eigenvector.
 - **Projection**: PCA projects the original data onto the selected principal components, transforming the data into a lower-dimensional space while preserving the maximum amount of variance.
 
-Here, we will use PCA to analyze the Wisconsin Breast Cancer dataset. 
+Here, we will use PCA to analyze the Wisconsin Breast Cancer dataset and identify where the tumor variance can come from. 
