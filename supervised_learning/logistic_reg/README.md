@@ -64,6 +64,7 @@ The coefficients $w_1, w_2, \ldots, w_n$ represent the influence of each input f
 - **Limited Expressiveness:** Logistic regression is limited in its ability to capture complex relationships between features and the target variable compared to more flexible models like neural networks.
 - **Feature Engineering Dependence:** The performance of logistic regression heavily depends on feature engineering and selection, requiring domain knowledge and manual intervention.
 
-## Conclusion
+## Our Problem
 
-Logistic regression is a versatile and interpretable algorithm for binary classification tasks. It provides probabilistic predictions and is relatively simple to implement and understand. However, it's important to consider its assumptions and limitations when applying it to real-world problems.
+Here, we will use logistic regression to classify tumors from the Wisconsin Breast Cancer dataset as benign or malignant. 
+
