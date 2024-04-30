@@ -34,4 +34,14 @@ Once you have miniconda or anaconda installed, you can install the following pac
 `conda install pandas` 
 `pip install ucimlrepo` 
 
+### Datasets 
+We will use several datasets, including the Seoul Bike Sharing Rental dataset, the Wisconsin Breast Cancer Dataset, and the Dry Bean Dataset. All attributed to their respective authors, but were sourced from the [University of California, Irvine Machine Learning Repository](https://archive.ics.uci.edu/). 
+
+### References
+
+Wolberg,William, Mangasarian,Olvi, Street,Nick, and Street,W.. (1995). Breast Cancer Wisconsin (Diagnostic). UCI Machine Learning Repository. https://doi.org/10.24432/C5DW2B.
+
+Seoul Bike Sharing Demand. (2020). UCI Machine Learning Repository. https://doi.org/10.24432/C5F62R.
+
+Dry Bean. (2020). UCI Machine Learning Repository. https://doi.org/10.24432/C50S4B.
 
