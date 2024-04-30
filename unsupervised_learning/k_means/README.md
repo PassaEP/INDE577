@@ -27,4 +27,4 @@ K-means clustering is a popular unsupervised machine learning algorithm used for
 - **Image Segmentation**: Clustering pixels in an image based on color similarity.
 - **Anomaly Detection**: Identifying outliers or unusual patterns in data.
 
-Overall, k-means clustering is a versatile algorithm suitable for various applications, particularly when the number of clusters is known or can be estimated, and when interpretability and computational efficiency are essential.
+Here we use K-means clustering to see if we can find distinct clusters in the benign and malignant tumor populations. While the phenotype for a tumor is the most important information for a clinician, other features contribute to the morphology and development of a tumor, which is encased in the features of the dataset. 
